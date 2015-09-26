@@ -9,5 +9,15 @@
     "dist/galarie.prefixed.min.css",
     "dist/galarie.theme.css"
   ],
+  "ignore": [
+        "sass",
+        ".csslintrc",
+        ".gitignore",
+        "bower.json",
+        "Gruntfile.js",
+        "LICENSE",
+        "package.json",
+        "README.md"
+    ],
   "license": "MIT"
 }
