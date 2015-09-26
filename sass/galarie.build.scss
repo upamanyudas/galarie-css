@@ -1,0 +1,5 @@
+@import "galarie";
+
+@for $i from 2 through 5 {
+  @include galarie($i);
+}

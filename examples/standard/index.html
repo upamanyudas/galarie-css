@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Demo of Galarie CSS</title>
+  <link rel="stylesheet" href="./css/vendor/normalize.css">
+  <link rel="stylesheet" href="../../dist/galarie.prefixed.css">
+  <link rel="stylesheet" href="../../dist/galarie.theme.css">
+</head>
+<body>
+
+  <h1>With autoplay</h1>
+  <div class="galarie autoplay items-5">
+    <div id="item-1" class="control-operator"></div>
+    <div id="item-2" class="control-operator"></div>
+    <div id="item-3" class="control-operator"></div>
+    <div id="item-4" class="control-operator"></div>
+    <div id="item-5" class="control-operator"></div>
+
+    <figure class="item">
+      <h1>Item 1</h1>
+    </figure>
+
+    <figure class="item">
+      <h1>Item 2</h1>
+    </figure>
+
+    <figure class="item">
+      <h1>Item 3</h1>
+    </figure>
+
+    <figure class="item">
+      <h1>Item 4</h1>
+    </figure>
+
+    <figure class="item">
+      <h1>Item 5</h1>
+    </figure>
+
+    <div class="controls">
+      <a href="#item-1" class="control-button">•</a>
+      <a href="#item-2" class="control-button">•</a>
+      <a href="#item-3" class="control-button">•</a>
+      <a href="#item-4" class="control-button">•</a>
+      <a href="#item-5" class="control-button">•</a>
+    </div>
+  </div>
+
+  <h1>Without autoplay</h1>
+  <div class="galarie">
+    <div id="no-autoplay-1" class="control-operator"></div>
+    <div id="no-autoplay-2" class="control-operator"></div>
+    <div id="no-autoplay-3" class="control-operator"></div>
+    <div id="no-autoplay-4" class="control-operator"></div>
+
+    <figure class="item">
+      <h1>Item 1</h1>
+    </figure>
+
+    <figure class="item">
+      <h1>Item 2</h1>
+    </figure>
+
+    <figure class="item">
+      <h1>Item 3</h1>
+    </figure>
+
+    <figure class="item">
+      <h1>Item 4</h1>
+    </figure>
+
+    <div class="controls">
+      <a href="#no-autoplay-1" class="control-button">•</a>
+      <a href="#no-autoplay-2" class="control-button">•</a>
+      <a href="#no-autoplay-3" class="control-button">•</a>
+      <a href="#no-autoplay-4" class="control-button">•</a>
+    </div>
+  </div>
+</body>
+</html>

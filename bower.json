@@ -1,0 +1,13 @@
+{
+  "name": "galarie",
+  "repo": "upamanyudas/galarie-css",
+  "version": "1.0.0",
+  "main": [
+    "dist/galarie.css",
+    "dist/galarie.min.css",
+    "dist/galarie.prefixed.css",
+    "dist/galarie.prefixed.min.css",
+    "dist/galarie.theme.css"
+  ],
+  "license": "MIT"
+}
